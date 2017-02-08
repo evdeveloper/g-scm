@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>select btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="g-scm---product" transform="translate(-1046.000000, -518.000000)" fill="#798B96">
+            <g id="product" transform="translate(135.000000, 248.000000)">
+                <g id="options" transform="translate(611.000000, 0.000000)">
+                    <g id="select" transform="translate(3.000000, 270.000000)">
+                        <g id="select-btn" transform="translate(297.000000, 0.000000)">
+                            <g id="btn">
+                                <rect id="bg" fill-opacity="0.0500000007" x="0" y="0" width="42" height="42"></rect>
+                                <polygon id="Path" transform="translate(21.076000, 20.731933) rotate(90.000000) translate(-21.076000, -20.731933) " points="17.4484938 29.463867 16 28.0201451 23.2644882 20.7319335 16 13.4437218 17.4484938 12 26.152 20.7319335"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

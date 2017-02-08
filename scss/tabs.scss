@@ -1,0 +1,37 @@
+.tabs__caption li {
+	display: inline-block;
+	margin-right: 45px;
+	font-weight: $bold;
+	font-size: $small-header;
+	color: $main-blue;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.3s all;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.tabs__caption li.active {
+	color: $main-red;
+}
+
+.tabs__content {
+	margin-top: 45px;
+	display: none;
+
+	h2 {
+		text-transform: uppercase;
+	}
+}
+
+.tabs__content.active {
+	display: block;
+	position: relative;	
+}
+
+.tabs__content > .slider__controls {
+	position: absolute;
+	top: -72px;
+	right: 0;
+}

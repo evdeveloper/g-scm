@@ -1,0 +1,23 @@
+// ABOUT US 
+.about__us > .fixed {
+	padding: 60px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about__us-item {
+	width: 155px;
+	font-weight: $bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+
+	span {
+		display: block;
+		font-weight: $bold;
+		font-size: 48px;
+		color: $main-red;
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,32 @@
+@import "vars";
+@import "reset";
+@import "extends";
+@import "headings";
+@import "tabs";
+
+@import "header";
+@import "about_us";
+@import "sliders";
+@import "advantages";
+@import "product_item";
+@import "news";
+@import "footer";
+
+
+@import "product_page";
+
+
+
+
+.clearfix:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.top__fixed { 
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}

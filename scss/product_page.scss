@@ -1,0 +1,144 @@
+// PRODUCT THUMBNAILS
+.product__section > .fixed {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 45px 0;
+}
+
+.product__thumbnails {	
+	width: 560px;
+}
+
+.product__main-thumbnail {
+	width: 413px;
+	height: 385px;
+}
+
+.product__right-thumbnails {
+	width: 133px;
+}
+
+.product__right-thumbnail {
+	width: 133px;
+	height: 123px;
+	margin-bottom: 7px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.product__details > .section__header, .ya-share2 {
+	margin-bottom: 10px;
+}
+
+.product__details-price {
+	font-weight: $bold;
+	font-size: 65px;
+	color: $main-red;
+}
+
+
+
+
+// PRODUCT CONFIGURATION
+.product__configuration {
+	margin-top: 45px;
+}
+
+.product__thumbnails, .product__diameter, .product__count, .product__count-input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product__diameter, .product__count {
+	width: 250px;
+}
+
+.product__diameter {
+	margin-bottom: 20px;
+}
+
+.product__options {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	select {
+		font-weight: $bold;
+		background: none;
+		color: $main-gray;
+		-webkit-appearance: none;
+	    border-radius: 0%;
+	    border: 2px solid $main-bg;
+	    width: 125px;
+	    padding: 12px 13px;
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		@extend .count__buttons;
+		background: url("../images/products/icons/select_btn.svg");
+	}
+} 
+
+.count__input {
+	border: 1px solid $main-bg;
+    padding: 13px 20px;
+    width: 40px;
+    font-weight: $bold;
+    color: $main-gray;
+    text-align: center;
+}
+
+.product__count-input:before {
+	content: "";
+	display: block;
+	@extend .count__buttons;
+	background: url("../images/products/icons/count_minus-btn.svg");
+}
+
+.product__count-input:after {
+	content: "";
+	display: block;
+	@extend .count__buttons;
+	background: url("../images/products/icons/count_plus-btn.svg");
+}
+
+.product__details > .product__buttons {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	float: left;
+	width: 330px;
+	margin-top: 45px;
+}
+
+
+
+
+// PRODUCT TABLE
+.product__table > .fixed {
+	padding: 45px 0;
+}
+
+.product__table-row, .row__colored {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 23px 15px;
+	transition: 0.3s all;
+	&:hover {
+		background: rgba(#000, .1);
+	}
+
+	span {
+		font-weight: $bold;
+	}
+}
+
+.row__colored {
+	background: $main-bg;
+}
