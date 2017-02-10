@@ -111,6 +111,8 @@
 		</div>
 	</section>
 
+	<?php include "includes/callback_overlay.php"; ?>
+
 	<?php include "includes/sliders/manufacturers_slider.php"; ?>
 	
 	<?php include "includes/footer.php"; ?>

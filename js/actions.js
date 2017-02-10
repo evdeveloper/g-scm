@@ -87,4 +87,15 @@ $(document).ready(function() {
 		$(".top__nav-search input").animate({width:'toggle',opacity:0},150);
 		$(".top__nav-icon").fadeIn({opacity:1},150);
 	});
+
+
+
+    //CALLBACK OVERLAY
+    $(".header__callback-btn").click(function() {
+        $("#callback__overlay").fadeIn(200);
+    });
+
+    $(".overlay__close").click(function() {
+        $("#callback__overlay").fadeOut(200);
+    });
 });

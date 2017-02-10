@@ -44,6 +44,14 @@ $(document).ready(function() {
         products_slider.slick("slickNext"); 
     });
 
+    $('#recently-products__slider-left').click(function(){
+        products_slider.slick("slickPrev"); 
+    });
+
+    $('#recently-products__slider-right').click(function(){
+        products_slider.slick("slickNext"); 
+    });
+
 
 
 
