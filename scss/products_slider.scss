@@ -1,0 +1,32 @@
+// PRODUCT SLIDER
+.products-slider {
+	background: $main-bg;
+	height: none;
+
+	> .fixed {
+		padding: 45px 0;
+	}
+
+	.slider__controls {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 85px;
+	}
+
+	.slider__controls-left {
+		@extend .slider__controls-icons;
+		background: url("../images/slider/icons/slider_arrows.svg") left;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") left;
+		}
+	}
+
+	.slider__controls-right {
+	    @extend .slider__controls-icons;
+		background: url("../images/slider/icons/slider_arrows.svg") right;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") right;
+		}
+	}
+}

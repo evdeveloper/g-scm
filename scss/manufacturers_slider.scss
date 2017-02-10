@@ -1,0 +1,81 @@
+// MANUFACTURER SLIDER
+.manufacturers-slider {
+	background: $main-bg;
+	height: none;
+
+	> .fixed {
+		padding: 45px 0;
+	}
+
+	
+	.slider__controls {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 85px;
+	}
+
+	.slider__controls-left {
+		@extend .slider__controls-icons;
+		background: url("../images/slider/icons/slider_arrows.svg") left;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") left;
+		}
+	}
+
+	.slider__controls-right {
+	    @extend .slider__controls-icons;
+		background: url("../images/slider/icons/slider_arrows.svg") right;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") right;
+		}
+	}
+}
+
+.manufacturers__slider-genebre {
+	@extend .manufacturers__slider-items;
+	background: url("../images/manufacturers/genebre.jpg");
+	&:hover {
+		background: url("../images/manufacturers/genebre_hover.jpg");
+	}
+}
+
+.manufacturers__slider-imi {
+	@extend .manufacturers__slider-items;
+	background: url("../images/manufacturers/imi.jpg");
+	&:hover {
+		background: url("../images/manufacturers/imi_hover.jpg");
+	}
+}
+
+.manufacturers__slider-danfoss {
+	@extend .manufacturers__slider-items;
+	background: url("../images/manufacturers/danfoss.jpg");
+	&:hover {
+		background: url("../images/manufacturers/danfoss_hover.jpg");
+	}
+}
+
+.manufacturers__slider-cimberio {
+	@extend .manufacturers__slider-items;
+	background: url("../images/manufacturers/cimberio.jpg");
+	&:hover {
+		background: url("../images/manufacturers/cimberio_hover.jpg");
+	}
+}
+
+.manufacturers__slider-broen {
+	@extend .manufacturers__slider-items;
+	background: url("../images/manufacturers/broen.jpg");
+	&:hover {
+		background: url("../images/manufacturers/broen_hover.jpg");
+	}
+}
+
+.manufacturers__slider-siemens {
+	@extend .manufacturers__slider-items;
+	background: url("../images/manufacturers/siemens.jpg");
+	&:hover {
+		background: url("../images/manufacturers/siemens_hover.jpg");
+	}
+}

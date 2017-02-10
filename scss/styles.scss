@@ -6,14 +6,22 @@
 
 @import "header";
 @import "about_us";
-@import "sliders";
+
+
+@import "main_slider";
+@import "products_slider";
+@import "certificates_slider";
+@import "manufacturers_slider";
+
+
 @import "advantages";
 @import "product_item";
 @import "news";
 @import "footer";
 
-
+ 
 @import "product_page";
+@import "product_table";
 
 
 
@@ -28,5 +36,5 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 999;
+	z-index: 9999;
 }

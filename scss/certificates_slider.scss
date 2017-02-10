@@ -1,0 +1,88 @@
+// CERTIFICATES SLIDER
+.certificates__slider {
+	background: $main-bg;
+	height: none;
+
+	> .fixed {
+		padding: 45px 0;
+	}
+
+	.slider__controls {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 85px;
+	}
+
+	.slider__controls-left {
+		@extend .slider__controls-icons;
+		background: url("../images/slider/icons/slider_arrows.svg") left;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") left;
+		}
+	}
+
+	.slider__controls-right {
+	    @extend .slider__controls-icons;
+		background: url("../images/slider/icons/slider_arrows.svg") right;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") right;
+		}
+	}
+}
+
+.certificates__slider-margin {
+	margin-right: 59px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.certificates__slider-dab { 
+	@extend .certificates__slider-items;
+	background: url("../images/certificates/dab.jpg");
+	&:hover {
+		background: url("../images/certificates/dab_hover.jpg");
+	}
+}
+
+.certificates__slider-genebre {
+	@extend .certificates__slider-items;
+	background: url("../images/certificates/genebre.jpg");
+	&:hover {
+		background: url("../images/certificates/genebre_hover.jpg");
+	}
+}
+
+.certificates__slider-herz {
+	@extend .certificates__slider-items;
+	background: url("../images/certificates/herz.jpg");
+	&:hover {
+		background: url("../images/certificates/herz_hover.jpg");
+	}
+}
+
+.certificates__slider-zetkama {
+	@extend .certificates__slider-items;
+	background: url("../images/certificates/zetkama.jpg");
+	&:hover {
+		background: url("../images/certificates/zetkama_hover.jpg");
+	}
+}
+
+.certificates__slider-grundfos {
+	@extend .certificates__slider-items;
+	background: url("../images/certificates/grundfos.jpg");
+	&:hover {
+		background: url("../images/certificates/grundfos_hover.jpg");
+	}
+}
+
+.certificates__slider-imi {
+	@extend .certificates__slider-items;
+	background: url("../images/certificates/imi.jpg");
+	&:hover {
+		background: url("../images/certificates/imi_hover.jpg");
+	}
+}
