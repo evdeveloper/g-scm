@@ -21,6 +21,7 @@ $(document).ready(function() {
     var products_slider = $('.products__slider').slick({
         infinite: true,
         autoplay: true,
+        variableWidth: true,
         draggable: false,
         arrows: false,
         slidesToShow: 4,
@@ -49,6 +50,7 @@ $(document).ready(function() {
     var certificates_slider = $('#certificates__slider').slick({
         infinite: true,
         autoplay: true,
+        variableWidth: true,
         draggable: false,
         arrows: false,
         slidesToShow: 4,
@@ -68,6 +70,7 @@ $(document).ready(function() {
     var manufacturers_slider = $('.manufacturers__slider').slick({
         infinite: true,
         autoplay: true,
+        variableWidth: true,
         draggable: false,
         arrows: false,
         slidesToShow: 5,
