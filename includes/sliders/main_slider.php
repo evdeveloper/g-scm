@@ -5,7 +5,7 @@
 	</div>
 	<div id="main__slider">
 		<div class="main__slider-one">
-			<div class="main__slider-caption">
+			<div class="main__slider-description">
 				<div class="fixed">
 					<div class="main__slider-top">
 						<p>Бесплатная доставка при заказе от 30 000 рублей по москве и московской
@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div class="main__slider-two">
-			<div class="main__slider-caption">
+			<div class="main__slider-description">
 				<div class="fixed">
 					<div class="main__slider-top">
 						<p>Есть вопросы по оборудованию? Мы поможем!</p>

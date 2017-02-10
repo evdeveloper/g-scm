@@ -142,7 +142,7 @@ input {
   margin-right: 55px;
   transition: 0.3s all; }
 
-.certificates__slider-items, .certificates__slider-dab, .certificates__slider-genebre, .certificates__slider-herz, .certificates__slider-zetkama, .certificates__slider-grundfos, .certificates__slider-imi {
+.certificates__slider-items, .certificates__slider-margin .certificates__slider-dab, .certificates__slider-margin .certificates__slider-genebre, .certificates__slider-margin .certificates__slider-herz, .certificates__slider-margin .certificates__slider-zetkama, .certificates__slider-margin .certificates__slider-grundfos, .certificates__slider-margin .certificates__slider-imi {
   display: block;
   width: 250px;
   height: 250px;
@@ -419,13 +419,13 @@ ul.top__nav-menu {
 .main__slider-two {
   background: url("../images/slider/main-slide_2.jpg") center center/cover; }
 
-.main__slider-caption {
+.main__slider-description {
   font-weight: 700;
   font-size: 25px;
   color: #fff;
   text-transform: uppercase;
   background: rgba(0, 0, 0, 0.5); }
-  .main__slider-caption > .fixed {
+  .main__slider-description > .fixed {
     padding: 45px 0; }
 
 .main__slider-bottom {
@@ -478,39 +478,33 @@ ul.top__nav-menu {
       background: url("../images/slider/icons/slider_arrows-hover.svg") right; }
 
 .certificates__slider-margin {
-  margin-right: 59px; }
+  margin-right: 63px; }
   .certificates__slider-margin:last-child {
     margin-right: 0; }
-
-.certificates__slider-dab {
-  background: url("../images/certificates/dab.jpg"); }
-  .certificates__slider-dab:hover {
-    background: url("../images/certificates/dab_hover.jpg"); }
-
-.certificates__slider-genebre {
-  background: url("../images/certificates/genebre.jpg"); }
-  .certificates__slider-genebre:hover {
-    background: url("../images/certificates/genebre_hover.jpg"); }
-
-.certificates__slider-herz {
-  background: url("../images/certificates/herz.jpg"); }
-  .certificates__slider-herz:hover {
-    background: url("../images/certificates/herz_hover.jpg"); }
-
-.certificates__slider-zetkama {
-  background: url("../images/certificates/zetkama.jpg"); }
-  .certificates__slider-zetkama:hover {
-    background: url("../images/certificates/zetkama_hover.jpg"); }
-
-.certificates__slider-grundfos {
-  background: url("../images/certificates/grundfos.jpg"); }
-  .certificates__slider-grundfos:hover {
-    background: url("../images/certificates/grundfos_hover.jpg"); }
-
-.certificates__slider-imi {
-  background: url("../images/certificates/imi.jpg"); }
-  .certificates__slider-imi:hover {
-    background: url("../images/certificates/imi_hover.jpg"); }
+  .certificates__slider-margin .certificates__slider-dab {
+    background: url("../images/certificates/dab.jpg"); }
+    .certificates__slider-margin .certificates__slider-dab:hover {
+      background: url("../images/certificates/dab_hover.jpg"); }
+  .certificates__slider-margin .certificates__slider-genebre {
+    background: url("../images/certificates/genebre.jpg"); }
+    .certificates__slider-margin .certificates__slider-genebre:hover {
+      background: url("../images/certificates/genebre_hover.jpg"); }
+  .certificates__slider-margin .certificates__slider-herz {
+    background: url("../images/certificates/herz.jpg"); }
+    .certificates__slider-margin .certificates__slider-herz:hover {
+      background: url("../images/certificates/herz_hover.jpg"); }
+  .certificates__slider-margin .certificates__slider-zetkama {
+    background: url("../images/certificates/zetkama.jpg"); }
+    .certificates__slider-margin .certificates__slider-zetkama:hover {
+      background: url("../images/certificates/zetkama_hover.jpg"); }
+  .certificates__slider-margin .certificates__slider-grundfos {
+    background: url("../images/certificates/grundfos.jpg"); }
+    .certificates__slider-margin .certificates__slider-grundfos:hover {
+      background: url("../images/certificates/grundfos_hover.jpg"); }
+  .certificates__slider-margin .certificates__slider-imi {
+    background: url("../images/certificates/imi.jpg"); }
+    .certificates__slider-margin .certificates__slider-imi:hover {
+      background: url("../images/certificates/imi_hover.jpg"); }
 
 .manufacturers-slider {
   background: #F8F9FA;
