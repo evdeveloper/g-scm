@@ -1,89 +1,85 @@
 $(document).ready(function() {
-    var main_slider = $('#main__slider').lightSlider({
-        item: 1,
-        pager: false,
-        slideMargin: 0,
-        controls: false,
-        auto: true,
-        loop: true,
-        enableDrag: false,
-        pauseOnHover: true,
-        pause: 6000
+    var main__slider = $("#main__slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false
     });
 
-    $('#main__slider-left').click(function(){
-        main_slider.goToPrevSlide(); 
-    });
+    $("#main__slider-right").click(function() {
+        main__slider.slick("slickNext");
+    }); 
 
-    $('#main__slider-right').click(function(){
-        main_slider.goToNextSlide(); 
+    $("#main__slider-left").click(function() {
+        main__slider.slick("slickPrev");
     });
 
 
 
-    var products_slider = $('#products__slider').lightSlider({
-        item: 4,
-        pager: false,
-        adaptiveHeight: true,
-        slideMargin: 75,
-        controls: false,
-        auto: true,
-        loop: true,
-        enableDrag: false,
-        pauseOnHover: true,
-        pause: 6000
+    var products__slider = $(".products__slider").slick({
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        variableWidth: true,
+        arrows: false
     });
 
-    $('#products__slider-left').click(function(){
-        products_slider.goToPrevSlide(); 
+    $("#products__slider-right").click(function() {
+        products__slider.slick("slickNext");
+    }); 
+
+    $("#products__slider-left").click(function() {
+        products__slider.slick("slickPrev");
     });
 
-    $('#products__slider-right').click(function(){
-        products_slider.goToNextSlide(); 
-    });
+    $("#sale__slider-right").click(function() {
+        products__slider.slick("slickNext");
+    }); 
 
-
-
-
-    var certificates_slider = $('#certificates__slider').lightSlider({
-        item: 4,
-        pager: false,
-        slideMargin: 56,
-        controls: false,
-        auto: true,
-        loop: true,
-        enableDrag: false,
-        pauseOnHover: true,
-        pause: 6000
-    });
-
-    $('#certificates__slider-left').click(function(){
-       certificates_slider.goToPrevSlide(); 
-    });
-
-    $('#certificates__slider-right').click(function(){
-       certificates_slider.goToNextSlide(); 
+    $("#sale__slider-left").click(function() {
+        products__slider.slick("slickPrev");
     });
 
 
 
-    var manufacturers_slider = $('#manufacturers__slider').lightSlider({
-        item: 5,
-        pager: false,
-        slideMargin: 56,
-        controls: false,
-        auto: true,
-        loop: true,
-        enableDrag: false,
-        pauseOnHover: true,
-        pause: 6000
+    var certificates__slider = $("#certificates__slider").slick({
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        variableWidth: true,
+        arrows: false
     });
 
-    $('#manufacturers__slider-left').click(function(){
-       manufacturers_slider.goToPrevSlide(); 
+    $("#certificates__slider-right").click(function() {
+        certificates__slider.slick("slickNext");
+    }); 
+
+    $("#certificates__slider-left").click(function() {
+        certificates__slider.slick("slickPrev");
     });
 
-    $('#manufacturers__slider-right').click(function(){
-       manufacturers_slider.goToNextSlide(); 
+
+
+    var manufacturers__slider = $(".manufacturers__slider").slick({
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        variableWidth: true,
+        arrows: false
+    });
+
+    $("#manufacturers__slider-right").click(function() {
+        manufacturers__slider.slick("slickNext");
+    }); 
+
+    $("#manufacturers__slider-left").click(function() {
+        manufacturers__slider.slick("slickPrev");
     });
 });

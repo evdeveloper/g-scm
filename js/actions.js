@@ -1,13 +1,13 @@
 $(document).ready(function() {
     //FIXED TOP NAV
-    var $menu = $(".top__nav");
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > $(".header").height() && $menu.hasClass("default")) {
-            $menu.removeClass("default").addClass("top-fixed");
-        } else if ($(this).scrollTop() <= $(".header").height() && $menu.hasClass("top__fixed")) {
-            $menu.removeClass("top__fixed").addClass("default");
-        }
-    });
+    // var $menu = $(".top__nav");
+    // $(window).scroll(function() {
+    //     if ($(this).scrollTop() > $(".header").height() && $menu.hasClass("default")) {
+    //         $menu.removeClass("default").addClass("top__fixed", 300);
+    //     } else if ($(this).scrollTop() <= $(".header").height() && $menu.hasClass("top__fixed")) {
+    //         $menu.removeClass("top__fixed").addClass("default");
+    //     }
+    // });
 
 
 
