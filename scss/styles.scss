@@ -1,38 +1,26 @@
 @import "vars";
 @import "reset";
-@import "extends";
-@import "headings";
-@import "tabs";
-
-@import "header";
-@import "about_us";
 
 
-@import "main_slider";
-@import "products_slider";
-@import "certificates_slider";
-@import "manufacturers_slider";
+@import "extends/buttons";
+@import "extends/icons";
+@import "extends/controls";
+@import "extends/headings";
+@import "extends/slider_items";
+@import "extends/fixed_nav";
 
 
-@import "advantages";
-@import "product_item";
-@import "news";
+@import "sliders/main";
+@import "sliders/certificates";
+@import "sliders/manufacturers";
 
 
-@import "callback_overlay";
-@import "footer";
-
-
-
-.clearfix:after {
-	content: "";
-  	display: table;
-  	clear: both;
-}
-
-.top__fixed { 
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 9999;
-}
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/tabs";
+@import "blocks/product";
+@import "blocks/advantages";
+@import "blocks/news";
+@import "blocks/footer";
+@import "blocks/form";
+@import "blocks/callback_overlay";

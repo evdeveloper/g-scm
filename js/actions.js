@@ -1,11 +1,11 @@
 $(document).ready(function() {
     //FIXED TOP NAV
-    var $menu = $(".top__nav");
+    var $menu = $(".topnav-container");
     $(window).scroll(function() {
         if ($(this).scrollTop() > $(".header").height() && $menu.hasClass("default")) {
             $menu.removeClass("default").addClass("top-fixed");
-        } else if ($(this).scrollTop() <= $(".header").height() && $menu.hasClass("top__fixed")) {
-            $menu.removeClass("top__fixed").addClass("default");
+        } else if ($(this).scrollTop() <= $(".header").height() && $menu.hasClass("top-fixed")) {
+            $menu.removeClass("top-fixed").addClass("default");
         }
     });
 
@@ -16,9 +16,9 @@ $(document).ready(function() {
     var amountScrolled = 600;
     $(window).scroll(function() {
         if ($(window).scrollTop() > amountScrolled) {
-            $(".top__btn").fadeIn(400);
+            $(".top-btn").fadeIn(400);
         } else {
-            $(".top__btn").fadeOut(400);
+            $(".top-btn").fadeOut(400);
         }
     });
 
@@ -26,76 +26,60 @@ $(document).ready(function() {
 
 
 	//INPUT PLACEHOLDERS
-	$(".top-nav__search-input").focus(function() {
+	$(".topnav-container__search-input").focus(function() {
         $(this).attr("placeholder", "");
     });
 
-    $(".top-nav__search-input").blur(function() {
+    $(".topnav-container__search-input").blur(function() {
         $(this).attr("placeholder", "ПОИСК...");
     });
 
-    $(".footer__form-input__name").focus(function() {
+    $(".form__name-input").focus(function() {
         $(this).attr("placeholder", "");
     });
 
-    $(".footer__form-input__name").blur(function() {
+    $(".form__name-input").blur(function() {
         $(this).attr("placeholder", "Ваше имя");
     });
 
-    $(".footer__form-input__phone").focus(function() {
+    $(".form__phone-input").focus(function() {
         $(this).attr("placeholder", "");
     });
 
-    $(".footer__form-input__phone").blur(function() {
-        $(this).attr("placeholder", "Ваш телефон");
-    });
-
-	$(".callback-form__name-input").focus(function() {
-        $(this).attr("placeholder", "");
-    });
-
-    $(".callback-form__name-input").blur(function() {
-        $(this).attr("placeholder", "Ваше имя");
-    });
-
-    $(".callback-form__phone-input").focus(function() {
-        $(this).attr("placeholder", "");
-    });
-
-    $(".callback-form__phone-input").blur(function() {
+    $(".form__phone-input").blur(function() {
         $(this).attr("placeholder", "Ваш телефон");
     });
 
 
 
 	//POPUP CATALOG
-	$(".top__nav-toggle").click(function() {
-		$(".toggle__catalog").slideToggle(200);
+    $(".topnav-container__toggle").click(function() {
+		$(".topnav-container__catalog-container").slideToggle(200);
 	});
 
 
 	
 	//SEARCH FIELD
-	$(".top__nav-icon").click(function() {
+	$(".topnav-container__search-icon").click(function() {
 		$(this).fadeOut({opacity:0},150);
-		$(".top__nav-close").fadeIn(150);
-		$(".top__nav-search input").animate({width:'toggle',opacity:1},150);
+		$(".topnav-container__search-close").fadeIn(150);
+		$(".topnav-container__search-input").animate({width:'toggle',opacity:1},150);
 	});
 
-	$(".top__nav-close").click(function() {
+	$(".topnav-container__search-close").click(function() {
         $(this).fadeOut(150);
-		$(".top__nav-search input").animate({width:'toggle',opacity:0},150);
-		$(".top__nav-icon").fadeIn({opacity:1},150);
+		$(".topnav-container__search-input").animate({width:'toggle',opacity:0},150);
+		$(".topnav-container__search-icon").fadeIn({opacity:1},150);
 	});
 
 
 
-    //CALLBACK OVERLAY
-    $(".header__callback-btn").click(function() {
-        $("#callback__overlay").fadeIn(200);
+    //OVERLAYS
+    $(".right-section__callback").click(function() {
+        $("#callback-overlay").fadeIn(150);
     });
 
-    $(".overlay__close").click(function() {
-        $("#callback__overlay").fadeOut(200);
+    $(".overlay-container__close").click(function() {
+        $("#callback-overlay").fadeOut(150);
     });
 });

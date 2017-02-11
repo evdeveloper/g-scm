@@ -1,0 +1,31 @@
+.slider {
+	background: $main-bg;
+	height: none;
+
+	> .fixed {
+		padding: 45px 0;
+	}
+
+	.slider-controls {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 85px;
+	}
+
+	.slider-controls__left {
+		@extend .slider-controls__icons;
+		background: url("../images/slider/icons/slider_arrows.svg") left;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") left;
+		}
+	}
+
+	.slider-controls__right {
+	    @extend .slider-controls__icons;
+		background: url("../images/slider/icons/slider_arrows.svg") right;
+		&:hover {
+			background: url("../images/slider/icons/slider_arrows-hover.svg") right;
+		}
+	}
+}
