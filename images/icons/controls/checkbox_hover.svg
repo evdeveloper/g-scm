@@ -16,7 +16,7 @@
             <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.335852582 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -29,8 +29,8 @@
                                 <g id="checkbox" fill-opacity="1" fill="black">
                                     <use filter="url(#filter-2)" xlink:href="#path-1"></use>
                                 </g>
-                                <g id="checkbox">
-                                    <use fill="#C54051" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <g id="checkbox" opacity="0.41627038">
+                                    <use fill="#C1041B" fill-rule="evenodd" xlink:href="#path-3"></use>
                                     <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
                                 </g>
                             </g>
