@@ -74,6 +74,25 @@ $(document).ready(function() {
 
 
 
+    //COUNT 
+    $(".cart-table__count-minus").click(function () {
+        var $input = $(this).parent().find(".cart-table__count-input");
+        var count = parseInt($input.val()) - 1;
+        count = count < 1 ? 1 : count;
+        $input.val(count);
+        $input.change();
+        return false;
+    });
+
+    $(".cart-table__count-plus").click(function () {
+        var $input = $(this).parent().find(".cart-table__count-input");
+        $input.val(parseInt($input.val()) + 1);
+        $input.change();
+        return false;
+    });
+
+
+
     //OVERLAYS
     $(".right-section__callback").click(function() {
         $("#callback-overlay").fadeIn(150);

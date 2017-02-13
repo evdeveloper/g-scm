@@ -87,13 +87,14 @@
 	display: none;
 	position: fixed;
 	right: 55px;
-    bottom: 29px;
+    bottom: 27px;
 	display: block;
 	width: 45px;
 	height: 45px;
 	background: url("../images/icons/top_btn.svg");
 	cursor: pointer;
 	transition: 0.3s all;
+	z-index: 9999;
 	&:hover {
 		background: url("../images/icons/top-btn_hover.svg");
 	}

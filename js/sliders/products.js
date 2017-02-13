@@ -16,6 +16,14 @@ $('#products-slider__right').click(function(){
     products_slider.slick("slickNext"); 
 });
 
+$('#recently-products-slider__left').click(function(){
+    products_slider.slick("slickPrev"); 
+});
+
+$('#recently-products-slider__right').click(function(){
+    products_slider.slick("slickNext"); 
+});
+
 
 
 var sales_slider = $('.slider-sales').slick({
