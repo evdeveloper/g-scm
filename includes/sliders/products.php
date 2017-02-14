@@ -10,7 +10,7 @@
 		<div class="product-item__description">
 			<p>КЛАПАН БАЛАНСИРОВОЧНЫЙ LENO MSV-BD</p>
 		</div>
-		<span class="product-item__price">ОТ 5 913 &#8381;</span>
+		<div class="product-item__price">ОТ 5 913 &#8381;</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>
 		</div>
@@ -22,7 +22,7 @@
 		</div>
 		<div class="product-item__description">
 			<p>БАЛАНСИРОВОЧНЫЙ КЛАПАН STAD БЕЗ ДРЕНАЖА</p>
-			<span class="product-item__price">ОТ 3 186 &#8381;</span>
+			<div class="product-item__price">ОТ 3 186 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>
@@ -34,7 +34,7 @@
 		</div>
 		<div class="product-item__description">
 			<p>КРАН ШАРОВОЙ ПОЛНОПРОХОДНОЙ GENEBRE 3029</p>
-			<span class="product-item__price">ОТ 188 &#8381;</span>
+			<div class="product-item__price">ОТ 188 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>
@@ -47,7 +47,7 @@
 		</div>
 		<div class="product-item__description">
 			<p>ЗАТВОР ДИСКОВЫЙ ПОВОРОТНЫЙ GENEBRE 2103</p>
-			<span class="product-item__price">ОТ 1 867 &#8381;</span>
+			<div class="product-item__price">ОТ 1 867 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>
@@ -60,7 +60,7 @@
 		<div class="product-item__description">
 			<p>КЛАПАН БАЛАНСИРОВОЧНЫЙ LENO MSV-BD</p>
 		</div>
-		<span class="product-item__price">ОТ 5 913 &#8381;</span>
+		<div class="product-item__price">ОТ 5 913 &#8381;</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>
 		</div>
@@ -72,7 +72,7 @@
 		</div>
 		<div class="product-item__description">
 			<p>БАЛАНСИРОВОЧНЫЙ КЛАПАН STAD БЕЗ ДРЕНАЖА</p>
-			<span class="product-item__price">ОТ 3 186 &#8381;</span>
+			<div class="product-item__price">ОТ 3 186 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>
@@ -84,7 +84,7 @@
 		</div>
 		<div class="product-item__description">
 			<p>КРАН ШАРОВОЙ ПОЛНОПРОХОДНОЙ GENEBRE 3029</p>
-			<span class="product-item__price">ОТ 188 &#8381;</span>
+			<div class="product-item__price">ОТ 188 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>
@@ -97,7 +97,7 @@
 		</div>
 		<div class="product-item__description">
 			<p>ЗАТВОР ДИСКОВЫЙ ПОВОРОТНЫЙ GENEBRE 2103</p>
-			<span class="product-item__price">ОТ 1 867 &#8381;</span>
+			<div class="product-item__price">ОТ 1 867 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
 			<a href="#">В корзину</a>

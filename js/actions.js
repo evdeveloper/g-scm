@@ -22,6 +22,13 @@ $(document).ready(function() {
         }
     });
 
+    $(".top-btn").click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 700);
+        return false;
+    });
+
 
 
 
@@ -48,6 +55,14 @@ $(document).ready(function() {
 
     $(".form__phone-input").blur(function() {
         $(this).attr("placeholder", "Ваш телефон");
+    });
+
+    $(".catalog-filter__search-input").focus(function() {
+        $(this).attr("placeholder", "");
+    });
+
+    $(".catalog-filter__search-input").blur(function() {
+        $(this).attr("placeholder", "ПОИСК...");
     });
 
 

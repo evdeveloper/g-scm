@@ -64,7 +64,214 @@
 	</nav>
 
 	<section class="catalog">
-		<div class="fixed">
+		<div class="fixed clearfix">
+			<div class="catalog-container">
+				<div class="catalog-products__options">
+					<div class="catalog-products__options-left">
+						<div class="catalog-products__layout">
+							<span class="catalog-products__layout-blocks"></span>
+							<span class="catalog-products__layout-lines"></span>
+						</div>
+						<div class="catalog-products__currency">
+							<span class="catalog-products__currency-ruble"></span>
+							<span class="catalog-products__currency-euro"></span>
+						</div>
+					</div>
+					<div class="catalog-products__options-right">
+						<div class="catalog-products__select">
+							<span class="catalog-products__select-btn"></span>
+							<select class="catalog-products__select-amount">
+								<option>12 на страницу</option>
+								<option>24 на страницу</option>
+								<option>36 на страницу</option>
+								<option>48 на страницу</option>
+							</select>
+						</div>
+						<div class="catalog-products__select">
+							<span class="catalog-products__select-btn"></span>
+							<select class="catalog-products__select-sorting">
+								<option>Цена по убыванию</option>
+								<option>Цена по возрастанию</option>
+								<option>По популярности</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="catalog-products">
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/item_1.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КЛАПАН БАЛАНСИРОВОЧНЫЙ LENO MSV-BD</p>
+						</div>
+						<div class="product-item__price">ОТ 5 913 &#8381;</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-discount">40%</div>
+						<div class="product-item__img">
+							<img src="images/products/item_2.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>БАЛАНСИРОВОЧНЫЙ КЛАПАН STAD БЕЗ ДРЕНАЖА</p>
+							<div class="product-item__price">ОТ 3 186 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/item_3.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КРАН ШАРОВОЙ ПОЛНОПРОХОДНОЙ GENEBRE 3029</p>
+							<div class="product-item__price">ОТ 188 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-sale"></div>
+						<div class="product-item__img">
+							<img src="images/products/sale/item_3.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>РЕДУКТОР ДАВЛЕНИЯ EUROPRESS ВВ С ОТВЕРСТИЕМ...</p>
+							<div class="product-item__price">ОТ 1 227 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/similar-products/item_1.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КЛАПАН ОБРАТНЫЙ ДВУХСТВОРЧАТЫЙ ZETKAMA 407A</p>
+						</div>
+						<div class="product-item__price">ОТ 2 377 &#8381;</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/similar-products/item_2.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КЛАПАН ОБРАТНЫЙ ДВУХСТВОРЧАТЫЙ DANFOSS ТИП…</p>
+							<div class="product-item__price">ОТ 10 260 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/similar-products/item_3.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КЛАПАН ОБРАТНЫЙ ДВУХСТВОРЧАТЫЙ DANFOSS ТИП…</p>
+							<div class="product-item__price">ОТ 8 853 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-sale"></div>
+						<div class="product-item__img">
+							<img src="images/products/sale/item_1.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КОМПЕНСАТОР АНТИВИБРАЦИОННЫЙ GENEBRE 2830</p>
+						</div>
+						<div class="product-item__price">ОТ 283 &#8381;</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/similar-products/item_4.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КЛАПАН ОБРАТНЫЙ ПОДЪЕМНЫЙ ZETKAMA 277A</p>
+							<div class="product-item__price">ОТ 1 341 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-discount">30%</div>
+						<div class="product-item__img">
+							<img src="images/products/item_14.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>КОМПЬЮТЕР ИЗМЕРИТЕЛЬНЫЙ HERZ T550</p>
+							<div class="product-item__price">ОТ 166 558 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/item_10.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>ЦИРКУЛЯЦИОННЫЕ НАСОСЫ UPS СЕРИИ 100 СТАНДАРТНОГО…</p>
+							<div class="product-item__price">ОТ 10 367 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+					<div class="product-item">
+						<div class="product-item__img">
+							<img src="images/products/item_13.jpg" alt="">
+						</div>
+						<div class="product-item__description">
+							<p>ВЕНТИЛЬ ИГОЛЬЧАТЫЙ GENEBRE 2223</p>
+							<div class="product-item__price">ОТ 2 144 &#8381;</div>
+						</div>
+						<div class="product-item__btn">
+							<a href="#">В корзину</a>
+						</div>
+					</div>
+				</div>
+				<div class="catalog-container__pagination">
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a href="#">7</a></li>
+						<li><a href="#">8</a></li>
+						<li><a href="#">9</a></li>
+						<li><a href="#">...</a></li>
+						<li><a href="#">25</a></li>
+					</ul>
+				</div>
+				<div class="catalog-container__about">
+					<p>Компания ГСКМ предлагает новейшее инженерное оборудование, которое предназначено для создания эффективных и экономичных инженерных систем.</p>
+					<p>У нас Вы можете купить инженерное оборудование, которое было подобрано на основе маркетинговых исследований. Наш каталог содержит более 1000 наименований известнейших мировых брендов.</p>
+					<p>В современном строительстве не обойтись без использования качественных материалов. Особое внимание уделяется водоснабжению, отоплению, канализации, вентиляции, системе кондиционирования, электроснабжения, дымоудаления и др. Все это «начинка» любого здания промышленного или гражданского назначения.</p>
+					<p>Работоспособность инженерных коммуникаций зависит от качества выбранных материалов и правильности проектирования. В каталоге ГСКМ представлено инженерное оборудование как российского производства, так и импортируемое из других стран. Прежде чем продукция попадает в каталог, она проходит строжайший контроль и жесткий отбор. Безупречное качество всех материалов – это гарантия того, что даже при эксплуатации в далеко не в идеальных условиях, системы будут работать безупречно.</p>
+					<p>Продажа инженерного оборудования осуществляется по максимально выгодным ценам и на приемлемых условиях сотрудничества. Наши постоянные клиенты - крупные предприятия промышленного и гражданского строительства. Кроме того, купить инженерное оборудование именно у нас предпочитают представители пищевой, металлургической, энергетической и нефтехимической отраслей промышленности.</p>
+					<p>Продажа инженерного оборудования в компании ГСКМ – это сотрудничество напрямую с производителями. Мы работаем без посредников, поэтому можем гарантировать безупречное качество всей предлагаемой продукции. Также Вас ждут одни из самых выгодных ценовых предложений в данном сегменте рынка.</p>
+					<p>Для предварительной консультации и заказа Вы можете связаться с нашими опытными сотрудниками по номеру телефона +7 495 663 9033. Также Вы можете отправить запрос на адрес нашей электронной почты <a href="mailto:info@g-scm.ru">info@g-scm.ru.</a></p>
+				</div>
+			</div>
 			<div class="catalog-filter">
 				<div class="catalog-filter__container">
 					<div class="catalog-filter__heading">
@@ -77,7 +284,7 @@
 					</div>
 					<div class="catalog-filter__range">
 						<div id="catalog-filter__range"></div>
-						  <input type="text" id="amount" readonly>
+						<input type="text" id="amount" readonly>
 					</div>
 				</div>
 				<div class="catalog-filter__container">
