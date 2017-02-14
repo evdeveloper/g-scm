@@ -2,7 +2,17 @@
 	padding: 45px 0;
 }
 
- 
+.cart-table__count, .cart-info__options {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-table__product-container, .cart-info > .fixed {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
 
 .cart-table table {
 	width: 100%;
@@ -57,51 +67,45 @@
 }
 
 .cart-table__product-container {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
 
 	.cart-table__product-price {
 		font-weight: $bold;
 		font-size: $fz-price;
 		color: $main-red;
 	}
+}
 
-	.cart-table__count {
-		display: flex;
-	    align-items: center;
-	    justify-content: space-between;
-	    width: auto;
+.cart-table__count {
+    width: auto;
 
-		.cart-table__count-minus {
-			@extend .count-icons;
-			background: url("../images/icons/controls/count_minus.svg");
-			&:hover {
-				background: url("../images/icons/controls/count_minus-hover.svg");
-			}
+	.cart-table__count-minus {
+		@extend .product-icons;
+		background: url("../images/icons/controls/count_minus.svg");
+		&:hover {
+			background: url("../images/icons/controls/count_minus-hover.svg");
 		}
+	}
 
-		.cart-table__count-plus {
-			@extend .count-icons;
-			background: url("../images/icons/controls/count_plus.svg");
-			&:hover {
-				background: url("../images/icons/controls/count_plus-hover.svg");
-			}
+	.cart-table__count-plus {
+		@extend .product-icons;
+		background: url("../images/icons/controls/count_plus.svg");
+		&:hover {
+			background: url("../images/icons/controls/count_plus-hover.svg");
 		}
+	}
 
-		.cart-table__count-input {
-			width: 30px;
-			padding: 13px 32px;
-			border: 2px solid $main-bg;
-			font-weight: $bold;
-			color: $main-gray;
-			text-align: center; 
-		}
+	.cart-table__count-input {
+		width: 43px;
+		padding: 13px 32px;
+		border: 2px solid $main-bg;
+		font-weight: $bold;
+		color: $main-gray;
+		text-align: center; 
+	}
 
-		.cart-table__count-input::-webkit-inner-spin-button, .cart-table__count-input::-webkit-outer-spin-button {
-			-webkit-appearance: none;
-			appearance: none;
-		}
+	.cart-table__count-input::-webkit-inner-spin-button, .cart-table__count-input::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+		appearance: none;
 	}
 }
 
@@ -111,9 +115,6 @@
 
 .cart-info > .fixed {
 	padding: 0 0 45px;
-	display: flex;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 .cart-info__price-info {
@@ -136,9 +137,6 @@
 }
 
 .cart-info__options {
-	display: flex;
-    align-items: center;
-    justify-content: space-between;
     float: right;
     width: 475px;
 

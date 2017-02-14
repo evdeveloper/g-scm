@@ -23,6 +23,14 @@
 	h2 {
 		text-transform: uppercase;
 	}
+
+	a {
+		color: $main-red;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 .tabs__content.active {
