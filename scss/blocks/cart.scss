@@ -66,13 +66,10 @@
 	}
 }
 
-.cart-table__product-container {
-
-	.cart-table__product-price {
-		font-weight: $bold;
-		font-size: $fz-price;
-		color: $main-red;
-	}
+.cart-table__product-price {
+	font-weight: $bold;
+	font-size: $fz-price;
+	color: $main-red;
 }
 
 .cart-table__count {

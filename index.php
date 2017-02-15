@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ООО "ГКСМ". Интернет магазин инженерного оборудования</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles.css?<?= rand(0,100000) ?>">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
@@ -222,6 +222,20 @@
 	</section>
 
 	<?php include "includes/blocks/footer.php"; ?>
+
+	<div id="cart-overlay">
+		<div class="overlay-container cart-overlay-container">
+			<div class="overlay-container__header cart-overlay-container__header">
+				<div class="fixed">
+					<p>Добавить товар в корзину</p>
+					<span class="overlay-container__close"></span>
+				</div>
+			</div>
+			<div class="fixed clearfix">
+				<?php include "includes/blocks/cart_overlay.php"; ?>
+			</div>
+		</div>
+	</div>
 
 	<div id="callback-overlay">
 		<div class="overlay-container">

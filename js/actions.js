@@ -116,4 +116,12 @@ $(document).ready(function() {
     $(".overlay-container__close").click(function() {
         $("#callback-overlay").fadeOut(150);
     });
+
+    $(".product-item__btn").click(function() {
+        $("#cart-overlay").fadeIn(150);
+    });
+
+    $(".overlay-container__close").click(function() {
+        $("#cart-overlay").fadeOut(150);
+    });
 });

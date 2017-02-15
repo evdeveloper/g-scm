@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ООО "ГКСМ". Интернет магазин инженерного оборудования</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles.css?<?= rand(0,100000) ?>">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/jquery-ui.min.css">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
