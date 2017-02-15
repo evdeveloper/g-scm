@@ -117,7 +117,7 @@ $(document).ready(function() {
         $("#callback-overlay").fadeOut(150);
     });
 
-    $(".product-item__btn").click(function() {
+    $(".product-item__btn-cart").click(function() {
         $("#cart-overlay").fadeIn(150);
     });
 

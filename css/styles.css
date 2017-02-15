@@ -25,7 +25,7 @@ h2 {
   width: 1170px;
   margin: 0 auto; }
 
-.btn, .right-section__callback a.right-section__callback, .product-item .product-item__btn a, .news-item__btn, .form-submit, .cart-overlay__btn, .cart-table__delete-product, .cart-info__options .cart-info__buy {
+.btn, .right-section__callback a.right-section__callback, .product-item .product-item__btn .product-item__btn-more, .news-item__btn, .form-submit, .cart-overlay__btn, .cart-table__delete-product, .cart-info__options .cart-info__buy {
   font-size: 12px;
   color: #fff;
   text-decoration: none;
@@ -37,7 +37,7 @@ h2 {
   background: #C54151;
   border-bottom: 2px solid #9A2837;
   transition: 0.3s all; }
-  .btn:hover, .right-section__callback a.right-section__callback:hover, .product-item .product-item__btn a:hover, .news-item__btn:hover, .form-submit:hover, .cart-overlay__btn:hover, .cart-table__delete-product:hover, .cart-info__options .cart-info__buy:hover {
+  .btn:hover, .right-section__callback a.right-section__callback:hover, .product-item .product-item__btn .product-item__btn-more:hover, .news-item__btn:hover, .form-submit:hover, .cart-overlay__btn:hover, .cart-table__delete-product:hover, .cart-info__options .cart-info__buy:hover {
     background: #A12B3A;
     border-bottom: 2px solid #851422;
     text-decoration: none; }
@@ -97,7 +97,7 @@ h2 {
   color: #fff;
   background: rgba(0, 0, 0, 0.2); }
 
-.product-icons, .cart-table__count .cart-table__count-minus, .cart-table__count .cart-table__count-plus, .catalog-products__layout .catalog-products__layout-blocks, .catalog-products__layout .catalog-products__layout-lines, .catalog-products__currency .catalog-products__currency-ruble, .catalog-products__currency .catalog-products__currency-euro, .catalog-products__select .catalog-products__select-btn {
+.product-icons, .product-item .product-item__btn .product-item__btn-cart, .cart-table__count .cart-table__count-minus, .cart-table__count .cart-table__count-plus, .catalog-products__layout .catalog-products__layout-blocks, .catalog-products__layout .catalog-products__layout-lines, .catalog-products__currency .catalog-products__currency-ruble, .catalog-products__currency .catalog-products__currency-euro, .catalog-products__select .catalog-products__select-btn {
   display: block;
   width: 42px;
   height: 42px;
@@ -532,10 +532,16 @@ ul.topnav-container__menu {
     color: #C54151; }
   .product-item .product-item__btn {
     width: 195px;
-    margin: 0 auto; }
-    .product-item .product-item__btn a {
-      margin: 0 auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .product-item .product-item__btn .product-item__btn-more {
       cursor: pointer; }
+    .product-item .product-item__btn .product-item__btn-cart {
+      background: url("../images/icons/products/cart.svg"); }
+      .product-item .product-item__btn .product-item__btn-cart:hover {
+        background: url("../images/icons/products/cart_hover.svg"); }
 
 .product-item_margin {
   margin-right: 70px; }

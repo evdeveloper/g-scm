@@ -12,7 +12,8 @@
 		</div>
 		<div class="product-item__price">ОТ 2 377 &#8381;</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 	<div class="product-item product-item_margin">
@@ -24,7 +25,8 @@
 			<div class="product-item__price">ОТ 10 260 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 	<div class="product-item product-item_margin">
@@ -36,7 +38,8 @@
 			<div class="product-item__price">ОТ 8 853 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 	<div class="product-item product-item_margin">
@@ -48,7 +51,8 @@
 			<div class="product-item__price">ОТ 1 341 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 	<div class="product-item product-item_margin">
@@ -60,7 +64,8 @@
 		</div>
 		<div class="product-item__price">ОТ 2 377 &#8381;</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 	<div class="product-item product-item_margin">
@@ -72,7 +77,8 @@
 			<div class="product-item__price">ОТ 10 260 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 	<div class="product-item product-item_margin">
@@ -84,7 +90,8 @@
 			<div class="product-item__price">ОТ 8 853 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 	<div class="product-item product-item_margin">
@@ -96,7 +103,8 @@
 			<div class="product-item__price">ОТ 1 341 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a href="#">В корзину</a>
+			<a class="product-item__btn-more">Подробнее</a>
+			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
 </div>
