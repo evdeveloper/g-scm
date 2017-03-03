@@ -81,7 +81,7 @@
     flex-wrap: wrap; }
   .catalog-products__select {
     width: 100%;
-    max-width: 185px;
+    max-width: 648px;
     margin-bottom: 25px; }
     .catalog-products__select:last-child {
       margin-bottom: 0; }
@@ -92,6 +92,8 @@
     margin-bottom: 25px; }
     .catalog-container__pagination ul li:last-child {
       margin-bottom: 0; }
+  .product-item {
+    margin: 0 auto; }
   .product-info__table > .fixed {
     width: 100%;
     padding: 0 30px; }

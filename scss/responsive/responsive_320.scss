@@ -152,7 +152,7 @@
 
 	.catalog-products__select {
 		width: 100%;
-	    max-width: 185px;
+	    max-width: 648px;
 	    margin-bottom: 25px;
 		&:last-child {
 			margin-bottom: 0;
@@ -172,6 +172,13 @@
 	    &:last-child {
 	    	margin-bottom: 0;
 	    }
+	}
+
+
+
+	//PRODUCT ITEM
+	.product-item {
+		margin: 0 auto;
 	}
 
 
