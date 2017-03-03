@@ -5,6 +5,16 @@
 	outline: none;
 }
 
+html { 
+	box-sizing: border-box; 
+}
+
+*, 
+*:before, 
+*:after { 
+	box-sizing: inherit; 
+}
+
 body, input, select {
 	font-family: "Fira Sans", sans-serif;
 }

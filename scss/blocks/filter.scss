@@ -28,12 +28,12 @@
 	justify-content: space-between;
 
 	.catalog-filter__price-input {
-		width: 50px;
-    	padding: 16px 20px;
-		background: rgba(#000, .05);
-		color: $main-gray;
-		text-transform: uppercase;
-		text-align: center;
+		width: 90px;
+	    padding: 16px 10px;
+	    background: rgba(#000, 0.05);
+	    color: $main-gray;
+	    text-transform: uppercase;
+	    text-align: center;
 	}
 }
 
@@ -42,6 +42,8 @@
 
 	#catalog-filter__range {
 	    background: $main-gray;
+	    width: 185px;
+	    margin: 0 auto;
 	    height: 5px;
 	    border: none;
 	}
@@ -62,7 +64,7 @@
     border-radius: 50%;    
     border: 3px solid $main-red;
     background: #fff;
-    top: -7px;
+    top: -4px;
     cursor: move;
 }
 
@@ -71,7 +73,7 @@
 	margin-top: 25px;
 
 	.catalog-filter__search-input {
-		width: 141px;
+		width: 205px;
 		padding: 16px 32px;
 		background: rgba(#000, .05);
 		color: $main-gray;

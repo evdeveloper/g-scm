@@ -67,7 +67,15 @@ $(document).ready(function() {
 
 
 
-	//POPUP CATALOG
+	
+    //MOBILE MENU
+    $(".topnav-container__mobile-toggle").click(function() {
+        $(".topnav-container__menu").slideToggle(200);
+    });
+
+
+
+    //POPUP CATALOG
     $(".topnav-container__toggle").click(function() {
 		$(".topnav-container__catalog-container").slideToggle(200);
 	});

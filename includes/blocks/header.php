@@ -12,7 +12,7 @@
 			</div>
 			<div class="right-section__menu">
 				<a href="#" class="right-section__cabinet">Личный кабинет</a>
-				<a href="#" class="right-section__cart">Корзина <span>пуста</span></a>
+				<a href="#" class="right-section__cart">Корзина<span>пуста</span></a>
 			</div>
 		</div>
 	</div>

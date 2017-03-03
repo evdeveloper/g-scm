@@ -2,10 +2,14 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>ООО "ГКСМ". Интернет магазин инженерного оборудования</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>ООО "ГКСМ". Интернет-магазин инженерного оборудования</title>
 	<link rel="stylesheet" href="css/styles.css?<?= rand(0,100000) ?>">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/responsive_320.css?<?= rand(0,100000) ?>">
+	<link rel="stylesheet" href="css/responsive_648-1024.css?<?= rand(0,100000) ?>">
+	<link rel="stylesheet" href="css/responsive_1150.css?<?= rand(0,100000) ?>">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
 </head>
@@ -14,23 +18,25 @@
 
 	<nav class="topnav-container">
 		<div class="fixed clearfix">
-			<div class="topnav-container__toggle">
+			<div class="topnav-container__mobile-toggle">
 				<span></span>
 				<span></span>
 				<span></span>
 			</div>
+			<div class="topnav-container__search">
+				<span class="topnav-container__search-icon"></span>
+				<span class="topnav-container__search-close"></span>
+				<input class="topnav-container__search-input" type="text" placeholder="ПОИСК...">
+			</div>
 			<ul class="topnav-container__menu">
+				<li><a href="#" class="topnav-container__toggle">Каталог</a></li>
 				<li><a href="#">Акции</a></li>
 				<li><a href="#">Доставка и оплата</a></li>
 				<li><a href="#">Сертификаты и гарантии</a></li>
 				<li><a href="#">Распродажа</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
-			<div class="topnav-container__search">
-				<span class="topnav-container__search-icon"></span>
-				<span class="topnav-container__search-close"></span>
-				<input class="topnav-container__search-input" type="text" placeholder="ПОИСК...">
-			</div>
+			
 		</div>
 		<div class="topnav-container__catalog-container">
 			<div class="fixed">

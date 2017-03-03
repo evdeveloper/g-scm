@@ -1,0 +1,45 @@
+@media (min-width: 648px) and (max-width: 1024px) {
+  .catalog > .fixed {
+    width: 100%;
+    padding: 45px 30px; }
+  .catalog-filter {
+    float: left;
+    width: 30%; }
+  .catalog-filter__heading h2 {
+    text-align: center; }
+  .catalog-filter__price {
+    width: 100%; }
+    .catalog-filter__price .catalog-filter__price-input {
+      width: 45%; }
+  .catalog-filter__range #catalog-filter__range {
+    width: 90%; }
+  .catalog-filter__search .catalog-filter__search-input {
+    width: 100%; }
+  .catalog-container {
+    float: right;
+    width: 65%;
+    max-width: 890px; }
+  .catalog-products__options {
+    display: block; }
+  .catalog-products__options-left {
+    width: 100%;
+    margin-bottom: 25px; }
+  .catalog-products__layout, .catalog-products__currency {
+    width: 100px; }
+  .catalog-products__options-right {
+    width: 100%;
+    flex-wrap: wrap; }
+  .catalog-products__select {
+    width: 100%;
+    margin-bottom: 25px; }
+    .catalog-products__select:last-child {
+      margin-bottom: 0; }
+  .catalog-products__select .catalog-products__select-amount,
+  .catalog-products__select .catalog-products__select-sorting {
+    width: 100%; }
+  .catalog-container__pagination ul li {
+    margin-bottom: 25px; }
+    .catalog-container__pagination ul li:last-child {
+      margin-bottom: 0; }
+  .product-item {
+    margin: 0 auto; } }

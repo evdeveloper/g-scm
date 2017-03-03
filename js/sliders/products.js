@@ -5,7 +5,23 @@ var products_slider = $('.slider-products').slick({
     draggable: false,
     arrows: false,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    }
+    ]
 });
 
 $('#products-slider__left').click(function(){
@@ -33,7 +49,23 @@ var sales_slider = $('.slider-sales').slick({
     draggable: false,
     arrows: false,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    }
+    ]
 });
 
 $('#sale-slider__left').click(function(){
