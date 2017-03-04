@@ -65,6 +65,23 @@ $(document).ready(function() {
         $(this).attr("placeholder", "ПОИСК...");
     });
 
+    $(".f__price-input").focus(function() {
+        $(this).attr("placeholder", "");
+    });
+
+    $(".f__price-input").blur(function() {
+        $(this).attr("placeholder", "2");
+    });
+
+    $(".t__price-input").focus(function() {
+        $(this).attr("placeholder", "");
+    });
+
+    $(".t__price-input").blur(function() {
+        $(this).attr("placeholder", "2484639");
+    });
+
+
 
 
 	
@@ -98,8 +115,8 @@ $(document).ready(function() {
 
 
     //COUNT 
-    $(".cart-table__count-minus").click(function () {
-        var $input = $(this).parent().find(".cart-table__count-input");
+    $(".count-minus").click(function () {
+        var $input = $(this).parent().find(".count-input");
         var count = parseInt($input.val()) - 1;
         count = count < 1 ? 1 : count;
         $input.val(count);
@@ -107,8 +124,8 @@ $(document).ready(function() {
         return false;
     });
 
-    $(".cart-table__count-plus").click(function () {
-        var $input = $(this).parent().find(".cart-table__count-input");
+    $(".count-plus").click(function () {
+        var $input = $(this).parent().find(".count-input");
         $input.val(parseInt($input.val()) + 1);
         $input.change();
         return false;

@@ -71,60 +71,6 @@
 			</div>
 		</div>
 	</nav>
-
-	<section class="product-info">
-		<div class="fixed clearfix">
-			<div class="product-info__thumbnail">
-				<div class="product-info__main-thumbnail">
-					<img src="images/products/previews/big_preview.jpg" alt="">
-					<span class="product-info__zoom"></span>
-				</div>
-				<div class="product-info__thumbnails">
-					<div class="product-info__thumbnails-item">
-						<img src="images/products/previews/small_preview.jpg" alt="">
-						<span class="product-info__zoom"></span>
-					</div>
-					<div class="product-info__thumbnails-item">
-						<img src="images/products/previews/small_preview.jpg" alt="">
-						<span class="product-info__zoom"></span>
-					</div>
-					<div class="product-info__thumbnails-item">
-						<img src="images/products/previews/small_preview.jpg" alt="">
-						<span class="product-info__zoom"></span>
-					</div>
-				</div>
-			</div>
-
-			<div class="product-info__info">
-				<div class="section-heading">
-					<h2>КЛАПАН ОБРАТНЫЙ ПРУЖИННЫЙ GENEBRE 2450</h2>
-				</div>
-				<div class="ya-share2" data-services="vkontakte,facebook,twitter,gplus" data-counter=""></div>
-				<div class="product-info__price">4207 &#8381;</div>
-				<div class="product-info__avalaible"><p>Артикул: 2450 09 Доступность: в наличии</p></div>
-				<div class="product-info__config">
-					<p>Диаметр:</p>
-					<div class="catalog-products__select">
-						<span class="catalog-products__select-btn"></span>
-						<select class="catalog-products__select-amount">
-							<option>DN16</option>
-							<option>DN16</option>
-							<option>DN16</option>
-							<option>DN16</option>
-						</select>
-					</div>
-				</div>
-				<div class="product-info__config">
-					<p>Количество:</p>
-					<div class="cart-table__count product-info__count">
-						<span class="cart-table__count-minus product-info__count-minus"></span>
-						<input value="1" type="number" class="cart-table__count-input product-info__count-input">
-						<span class="cart-table__count-plus product-info__count-plus"></span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 	<section class="product-info__table">
 		<div class="fixed">
 			<div class="tabs">

@@ -1,19 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>ООО "ГКСМ". Интернет-магазин инженерного оборудования</title>
-	<link rel="stylesheet" href="css/styles.css?<?= rand(0,100000) ?>">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/jquery-ui.min.css">
-	<link rel="stylesheet" href="css/responsive_320.css?<?= rand(0,100000) ?>">
-	<link rel="stylesheet" href="css/responsive_648-1024.css?<?= rand(0,100000) ?>">
-	<link rel="stylesheet" href="css/responsive_1150.css?<?= rand(0,100000) ?>">
-	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
-</head>
-<body>
 	<?php include "includes/blocks/header.php"; ?>
 
 	<nav class="topnav-container">
@@ -40,7 +26,7 @@
 		</div>
 		<div class="topnav-container__catalog-container">
 			<div class="fixed">
-				<a href="#" class="topnav-container__catalog-link">Перейти в каталог</a>
+				<a href="catalog.php" class="topnav-container__catalog-link">Перейти в каталог</a>
 			</div>
 			<div class="topnav-container__catalog">
 				<ul>
@@ -261,7 +247,6 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.9/jquery.mask.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/sliders/main.js"></script>
