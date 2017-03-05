@@ -1,11 +1,11 @@
-$(".form").validate({
+$(".popup-form").validate({
 	submitHandler: function (form) {
 	    $.ajax({
            type: "POST",
            url: "includes/mail.php",
-           data: $(".form").serialize(),
+           data: $(".popup-form").serialize(),
            success: function(data) {
-               $(".form").append('<p style="color: green">Спасибо за обращение! С Вами скоро свяжутся</p>');
+               alert("Спасибо за обращение! С Вами скоро свяжутся");
            }
         });
 
@@ -13,23 +13,61 @@ $(".form").validate({
 	},
 
 	rules: {
-		name: {
+		form_name_input: {
 	  		minlength: 4,
 	    	required: true
 		},
-		phone: {
-	  		number: true,
+		form_phone_input: {
+	  		minlength: 17,
 	    	required: true
 		}
 	},
 
 	messages: {
-		name: {
+		form_name_input: {
 			minlength: "Имя должно содержать как минимум 4 символа",
 			required: "Поле не должно быть пустым"
 		},
-		phone: {
-			number: "Неправильный формат",
+		form_phone_input: {
+			minlength: "Номер телефона должен содержать 11 символов",
+			required: "Поле не должно быть пустым"
+		}
+	}
+});
+
+
+$(".footer-form").validate({
+	submitHandler: function (form) {
+	    $.ajax({
+           type: "POST",
+           url: "includes/mail.php",
+           data: $(".footer-form").serialize(),
+           success: function(data) {
+               alert("Спасибо за обращение! С Вами скоро свяжутся");
+           }
+        });
+
+	    e.preventDefault();
+	},
+
+	rules: {
+		form_name_input: {
+	  		minlength: 4,
+	    	required: true
+		},
+		form_phone_input: {
+	  		minlength: 17,
+	    	required: true
+		}
+	},
+
+	messages: {
+		form_name_input: {
+			minlength: "Имя должно содержать как минимум 4 символа",
+			required: "Поле не должно быть пустым"
+		},
+		form_phone_input: {
+			minlength: "Номер телефона должен содержать 11 символов",
 			required: "Поле не должно быть пустым"
 		}
 	}

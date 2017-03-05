@@ -1,5 +1,13 @@
-.form {
+.form, .popup-form {
 	width: 235px;
+}
+
+.footer-form > .error {
+	color: #fff;
+}
+
+.popup-form > .error {
+	color: $main-red;
 }
 
 .form-input {

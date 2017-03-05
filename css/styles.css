@@ -173,12 +173,6 @@ h2 {
   margin-right: 55px;
   transition: 0.3s all; }
 
-.top-fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999; }
-
 .main-slider {
   position: relative; }
 
@@ -543,7 +537,9 @@ ul.topnav-container__menu {
   .product-item .product-item__img {
     text-align: center; }
     .product-item .product-item__img img {
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 145px;
+      height: auto; }
   .product-item .product-item__description {
     text-transform: uppercase;
     margin: 20px auto 0; }
@@ -739,8 +735,14 @@ ul.topnav-container__menu {
   .top-btn:hover {
     background: url("../images/icons/top-btn_hover.svg"); }
 
-.form {
+.form, .popup-form {
   width: 235px; }
+
+.footer-form > .error {
+  color: #fff; }
+
+.popup-form > .error {
+  color: #C54151; }
 
 .form-input {
   position: relative;
@@ -1162,3 +1164,9 @@ ul.topnav-container__menu {
     text-decoration: none; }
     .catalog-container__about a:hover {
       text-decoration: underline; }
+
+.top-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }

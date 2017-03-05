@@ -1,17 +1,16 @@
+//FIXED TOP NAV
+var menu = $(".topnav-container");
+$(window).scroll(function() {
+    if ($(this).scrollTop() > $(".header").height() && menu.hasClass("default")) {
+        menu.removeClass("default").addClass("top-fixed");
+    } else if ($(this).scrollTop() <= $(".header").height() && menu.hasClass("top-fixed")) {
+        menu.removeClass("top-fixed").addClass("default");
+    }
+});
+
+
+
 $(document).ready(function() {
-    //FIXED TOP NAV
-    var $menu = $(".topnav-container");
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > $(".header").height() && $menu.hasClass("default")) {
-            $menu.removeClass("default").addClass("top-fixed");
-        } else if ($(this).scrollTop() <= $(".header").height() && $menu.hasClass("top-fixed")) {
-            $menu.removeClass("top-fixed").addClass("default");
-        }
-    });
-
-
-
-
     // TOP BUTTON
     var amountScrolled = 600;
     $(window).scroll(function() {
