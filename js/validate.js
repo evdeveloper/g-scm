@@ -6,10 +6,9 @@ $(".popup-form").validate({
            data: $(".popup-form").serialize(),
            success: function(data) {
                alert("Спасибо за обращение! С Вами скоро свяжутся");
+               $("#callback-overlay").fadeOut(200);
            }
         });
-
-	    e.preventDefault();
 	},
 
 	rules: {
@@ -46,8 +45,6 @@ $(".footer-form").validate({
                alert("Спасибо за обращение! С Вами скоро свяжутся");
            }
         });
-
-	    e.preventDefault();
 	},
 
 	rules: {

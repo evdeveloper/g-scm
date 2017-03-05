@@ -58,6 +58,10 @@ a.header__logo {
 	    border-bottom: 2px solid #9A2837;
 	    transition: 0.3s all;
 		margin: 10px auto 0;
+		&:hover {
+			background: $btn-hover;
+			border-bottom: 2px solid $btn-border-hover;
+		}
 	}
 }
 

@@ -1,4 +1,4 @@
-<form class="form footer-form" method="post">
+<form class="form footer-form">
 	<h2 class="footer-container__header">Обратный звонок</h2>
 	<div class="form-input">
 		<span class="form__name-icon"></span>

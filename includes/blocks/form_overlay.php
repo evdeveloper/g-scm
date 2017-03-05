@@ -1,4 +1,4 @@
-<form class="form popup-form clearfix" method="post">
+<form class="form popup-form clearfix">
 	<div class="form-input">
 		<span class="form__name-icon"></span>
 		<input type="text" name="form_name_input" class="form__name-input form__name-input_overlay" placeholder="Ваше имя">

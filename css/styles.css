@@ -331,6 +331,9 @@ a.header__logo {
     border-bottom: 2px solid #9A2837;
     transition: 0.3s all;
     margin: 10px auto 0; }
+    .right-section__callback a.right-section__callback:hover {
+      background: #A12B3A;
+      border-bottom: 2px solid #851422; }
 
 .right-section__menu {
   display: flex;
@@ -593,6 +596,20 @@ ul.topnav-container__menu {
   width: 110px;
   height: 37px;
   background: url("../images/icons/products/sale.png") no-repeat; }
+
+.product-info__table > .fixed {
+  padding: 45px 0; }
+
+.product-info__table-row > .fixed {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .product-info__table-row > .fixed span {
+    font-weight: 700; }
+
+.product-info__table-row_colored {
+  background: #F8F9FA; }
 
 .advantages > .fixed {
   padding: 45px 0; }
