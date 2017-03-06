@@ -7,7 +7,7 @@
 <div class="cart-overlay__options">
 	<div class="cart-overlay__options-diameter">
 		<p>Диаметр:</p>
-		<div class="catalog-products__select cart-overlay__select">
+		<div class="product-info__select catalog-products__select cart-overlay__select">
 			<span class="catalog-products__select-btn cart-overlay__select-btn"></span>
 			<select class="catalog-products__select-amount cart-overlay__select-diameter">
 				<option>DN10 (KVS 1,47)</option>
@@ -19,10 +19,10 @@
 	</div>
 	<div class="cart-overlay__options-count">
 		<p>Количество:</p>
-		<div class="cart-table__count">
-			<span class="cart-table__count-minus"></span>
-			<input value="1" type="number" class="cart-table__count-input">
-			<span class="cart-table__count-plus"></span>
+		<div class="count">
+			<span class="count-minus"></span>
+			<input value="1" type="number" class="count-input">
+			<span class="count-plus"></span>
 		</div>
 	</div>
 </div>

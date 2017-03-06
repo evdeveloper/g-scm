@@ -12,7 +12,7 @@
 		</div>
 		<div class="product-item__price">ОТ 5 913 &#8381;</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
@@ -26,7 +26,7 @@
 			<div class="product-item__price">ОТ 3 186 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
@@ -39,7 +39,7 @@
 			<div class="product-item__price">ОТ 188 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
@@ -53,7 +53,7 @@
 			<div class="product-item__price">ОТ 1 867 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
@@ -66,7 +66,7 @@
 		</div>
 		<div class="product-item__price">ОТ 5 913 &#8381;</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
@@ -80,7 +80,7 @@
 			<div class="product-item__price">ОТ 3 186 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
@@ -93,7 +93,7 @@
 			<div class="product-item__price">ОТ 188 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>
@@ -107,7 +107,7 @@
 			<div class="product-item__price">ОТ 1 867 &#8381;</div>
 		</div>
 		<div class="product-item__btn">
-			<a class="product-item__btn-more">Подробнее</a>
+			<a href="product.php" class="product-item__btn-more">Подробнее</a>
 			<span class="product-item__btn-cart"></span>
 		</div>
 	</div>

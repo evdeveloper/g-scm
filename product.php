@@ -55,6 +55,57 @@
 			</div>
 		</div>
 	</nav> 
+	<section class="product-info">
+		<div class="fixed clearfix">
+			<div class="product-info__thumb">
+				<div class="product-info__main-thumb">
+					<img src="images/products/previews/thumb.jpg" alt="">
+				</div>
+				<div class="product-info__ext-thumb">
+					<img src="images/products/previews/thumb.jpg" alt="">
+					<img src="images/products/previews/thumb.jpg" alt="">
+					<img src="images/products/previews/thumb.jpg" alt="">
+				</div>
+			</div>
+			<div class="product-info__info">
+				<div class="product-info__title">
+					<div class="section-heading">
+						<h2>КЛАПАН ОБРАТНЫЙ ПРУЖИННЫЙ GENEBRE 2450</h2>
+					</div>
+					<div class="ya-share2" data-services="vkontakte,twitter,facebook,gplus" data-counter=""></div>
+				</div>
+				<div class="product-info__price"><h2>4207 &#8381;</h2></div>
+				<div class="product-info__available">
+					<p>Артикул: 2450 09</p>
+					<p>Доступность: в наличии</p>
+				</div>
+				<div class="product-info__config">
+					<p>Диаметр:</p>
+					<div class="catalog-products__select product-info__select">
+						<span class="catalog-products__select-btn"></span>
+						<select class="catalog-products__select-amount">
+							<option>DN50</option>
+							<option>DN50</option>
+							<option>DN50</option>
+							<option>DN50</option>
+						</select>
+					</div>
+				</div>
+				<div class="product-info__config">
+					<p>Количество:</p>
+					<div class="count">
+						<span class="count-minus"></span>
+						<input value="1" type="number" class="count-input">
+						<span class="count-plus"></span>
+					</div>
+				</div>
+				<div class="product-info__options">
+					<a href="#" class="product-info__cart">В корзину</a>
+					<a href="#" class="product-info__buy">Купить в один клик</a>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section class="product-info__table">
 		<div class="fixed">
 			<div class="tabs">
@@ -147,16 +198,18 @@
 			</div>
 		</div>
 	</div>
-	<div id="callback-overlay">
-		<div class="overlay-container">
-			<div class="overlay-container__header">
-				<div class="fixed">
-					<p>Заказать обратный звонок</p>
-					<span class="overlay-container__close"></span>
+	<div id="callback-overlay" class="overlay">
+		<div class="flex-overlay">
+			<div class="overlay-container">
+				<div class="overlay-container__header">
+					<div class="fixed">
+						<p>Заказать обратный звонок</p>
+						<span class="overlay-container__close"></span>
+					</div>
 				</div>
-			</div>
-			<div class="fixed">
-				<?php include "includes/blocks/form_overlay.php"; ?>
+				<div class="fixed">
+					<?php include "includes/blocks/form_overlay.php"; ?>
+				</div>
 			</div>
 		</div>
 	</div>

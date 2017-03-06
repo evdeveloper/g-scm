@@ -212,33 +212,34 @@
 			</ul>
 		</div>
 	</section>
-
 	<?php include "includes/blocks/footer.php"; ?>
-
-	<div id="cart-overlay">
-		<div class="overlay-container cart-overlay-container">
-			<div class="overlay-container__header cart-overlay-container__header">
-				<div class="fixed">
-					<p>Добавить товар в корзину</p>
-					<span class="overlay-container__close"></span>
+	<div id="cart-overlay" class="overlay">
+		<div class="flex-overlay">
+			<div class="overlay-container cart-overlay-container">
+				<div class="overlay-container__header cart-overlay-container__header">
+					<div class="fixed">
+						<p>Добавить товар в корзину</p>
+						<span class="overlay-container__close"></span>
+					</div>
 				</div>
-			</div>
-			<div class="fixed clearfix">
-				<?php include "includes/blocks/cart_overlay.php"; ?>
+				<div class="fixed clearfix">
+					<?php include "includes/blocks/cart_overlay.php"; ?>
+				</div>
 			</div>
 		</div>
 	</div>
-
-	<div id="callback-overlay">
-		<div class="overlay-container">
-			<div class="overlay-container__header">
-				<div class="fixed">
-					<p>Заказать обратный звонок</p>
-					<span class="overlay-container__close"></span>
+	<div id="callback-overlay" class="overlay">
+		<div class="flex-overlay">
+			<div class="overlay-container">
+				<div class="overlay-container__header">
+					<div class="fixed">
+						<p>Заказать обратный звонок</p>
+						<span class="overlay-container__close"></span>
+					</div>
 				</div>
-			</div>
-			<div class="fixed">
-				<?php include "includes/blocks/form_overlay.php"; ?>
+				<div class="fixed">
+					<?php include "includes/blocks/form_overlay.php"; ?>
+				</div>
 			</div>
 		</div>
 	</div>
