@@ -9,7 +9,6 @@ $(window).scroll(function() {
 });
 
 
-
 $(document).ready(function() {
     // TOP BUTTON
     var amountScrolled = 600;

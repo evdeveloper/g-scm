@@ -537,12 +537,15 @@ ul.topnav-container__menu {
   padding: 20px 15px;
   background: #fff;
   transition: 0.3s all; }
+  .product-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999; }
   .product-item .product-item__img {
     text-align: center; }
     .product-item .product-item__img img {
       margin: 0 auto;
-      width: 145px;
-      height: auto; }
+      width: auto;
+      height: 145px; }
   .product-item .product-item__description {
     text-transform: uppercase;
     margin: 20px auto 0; }

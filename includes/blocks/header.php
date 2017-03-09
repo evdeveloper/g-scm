@@ -2,12 +2,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>ООО "ГСКМ". Интернет-магазин инженерного оборудования</title>
-	<link rel="stylesheet" href="css/styles.css?<?= rand(0,100000) ?>">
+	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/jquery-ui.min.css">
-	<link rel="stylesheet" href="css/responsive_320.css?<?= rand(0,100000) ?>">
-	<link rel="stylesheet" href="css/responsive_648.css?<?= rand(0,100000) ?>">
-	<link rel="stylesheet" href="css/responsive_1170.css?<?= rand(0,100000) ?>">
+	<link rel="stylesheet" href="css/responsive_320.css?">
+	<link rel="stylesheet" href="css/responsive_648.css?">
+	<link rel="stylesheet" href="css/responsive_1170.css?">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
 </head>

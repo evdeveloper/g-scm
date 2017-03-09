@@ -4,14 +4,18 @@
 	padding: 20px 15px;
 	background: #fff;
 	transition: 0.3s all;
+	&:hover {
+		box-shadow: 0 0 10px rgba(#000, .2);
+		z-index: 9999;
+	}
 
 	.product-item__img {
 		text-align: center;
 
 		img {
 			margin: 0 auto;
-			width: 145px;
-			height: auto;
+			width: auto;
+			height: 145px;
 		}
 	}
 

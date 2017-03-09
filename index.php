@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<?php include "includes/blocks/header.php"; ?>
-
 	<nav class="topnav-container">
 		<div class="fixed clearfix">
 			<div class="topnav-container__mobile-toggle">
@@ -252,10 +251,7 @@
 	<script src="js/validate.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.9/jquery.mask.min.js"></script>
 	<script src="js/slick.min.js"></script>
-	<script src="js/sliders/main.js"></script>
-	<script src="js/sliders/products.js"></script>
-	<script src="js/sliders/certificates.js"></script>
-	<script src="js/sliders/manufacturers.js"></script>
+	<script src="build/js/sliders.js"></script>
 	<script src="js/actions.js"></script>
 	<script src="js/tabs.js"></script>
 </body>
