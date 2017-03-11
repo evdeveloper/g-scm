@@ -5,9 +5,9 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/jquery-ui.min.css">
-	<link rel="stylesheet" href="css/responsive_320.css?">
-	<link rel="stylesheet" href="css/responsive_648.css?">
-	<link rel="stylesheet" href="css/responsive_1170.css?">
+	<link rel="stylesheet" href="css/responsive_320.css">
+	<link rel="stylesheet" href="css/responsive_648.css">
+	<link rel="stylesheet" href="css/responsive_1170.css">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
 </head>

@@ -21,7 +21,6 @@
 				<li><a href="#">Распродажа</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
-			
 		</div>
 		<div class="topnav-container__catalog-container">
 			<div class="fixed">
