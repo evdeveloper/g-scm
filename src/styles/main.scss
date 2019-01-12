@@ -1,0 +1,36 @@
+@import "vars";
+@import "reset";
+@import "slick.scss";
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css');
+@import "extends/buttons";
+@import "extends/icons";
+@import "extends/controls";
+@import "extends/headings";
+@import "extends/slider_items";
+@import "sliders/main";
+@import "sliders/certificates";
+@import "sliders/manufacturers";
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/tabs";
+@import "blocks/product";
+@import "blocks/product_info";
+@import "blocks/product_info_table";
+@import "blocks/advantages";
+@import "blocks/news";
+@import "blocks/footer";
+@import "blocks/form";
+@import "blocks/overlay";
+@import "blocks/cart";
+@import "blocks/filter";
+@import "blocks/catalog";
+@import "responsive/responsive_320";
+@import "responsive/responsive_648";
+@import "responsive/responsive_1170";
+.top-fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}

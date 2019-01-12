@@ -1,0 +1,45 @@
+.advantages > .fixed {
+	padding: 45px 0;
+}
+
+.advantages-row {
+	width: 1170px;
+	margin: 0 auto;
+	padding-bottom: 45px;
+
+	> .advantages-item {
+		margin: 0 145px;
+	}
+}
+
+.advantages-item {
+	width: 295px;
+	float: left;
+	margin: 0 47px;
+
+	.advantages-item__thumbsup-icon {
+		@extend .advantages-icons;
+		background: url("../images/icons/advantages/advantage_1.svg") no-repeat;
+		
+	}
+
+	.advantages-item__briefcase-icon {
+		@extend .advantages-icons;
+		background: url("../images/icons/advantages/advantage_2.svg") no-repeat;
+	}
+
+	.advantages-item__price-icon {
+		@extend .advantages-icons;
+		background: url("../images/icons/advantages/advantage_3.svg") no-repeat;
+	}
+
+	.advantages-item__delivery-icon {
+		@extend .advantages-icons;
+		background: url("../images/icons/advantages/advantage_4.svg") no-repeat;
+	}
+
+	.advantages-item__individual-icon {
+		@extend .advantages-icons;
+		background: url("../images/icons/advantages/advantage_5.svg") no-repeat;
+	}
+}

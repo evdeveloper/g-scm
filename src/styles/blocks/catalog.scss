@@ -1,0 +1,133 @@
+.catalog-container {
+	width: 820px;
+	float: right;
+}
+
+.catalog-products, .catalog-products__options, .catalog-products__options-left, 
+.catalog-products__options-right, .catalog-products__layout, .catalog-products__currency {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.catalog-products__options {
+	margin-bottom: 25px;
+}
+
+.catalog-products__options-left {
+    width: 200px;
+}
+
+.catalog-products__layout {
+
+	.catalog-products__layout-blocks {
+		@extend .product-icons;
+		background: url("../images/icons/products/layout_blocks.svg");
+		&:hover {
+			background: url("../images/icons/products/layout_blocks-hover.svg");
+		}
+	}
+
+	.catalog-products__layout-lines {
+		@extend .product-icons;
+		background: url("../images/icons/products/layout_lines.svg");
+		&:hover {
+			background: url("../images/icons/products/layout_lines-hover.svg");
+		}
+	}
+}
+
+.catalog-products__currency {
+
+	.catalog-products__currency-ruble {
+		@extend .product-icons;
+		background: url("../images/icons/products/ruble.svg");
+		&:hover {
+			background: url("../images/icons/products/ruble_hover.svg");
+		}
+	}
+
+	.catalog-products__currency-euro {
+		@extend .product-icons;
+		background: url("../images/icons/products/euro.svg");
+		&:hover {
+			background: url("../images/icons/products/euro_hover.svg");
+		}
+	}
+}
+
+.catalog-products__options-right {
+	width: 420px;
+}
+
+.catalog-products__select {
+	position: relative;
+	width: 195px;
+
+	.catalog-products__select-amount, .catalog-products__select-sorting {
+		-webkit-appearance: none;
+	    padding: 13px 15px;
+	    border: 2px solid $main-bg;
+	    background: none;
+	    width: 195px;
+	    color: $main-gray;
+	    text-transform: uppercase;
+	}
+
+	.catalog-products__select-btn {
+		position: absolute;
+		right: 0;
+		@extend .product-icons;
+		background: url("../images/icons/products/select_btn.svg");
+	}
+}
+	
+.catalog-products {
+	flex-wrap: wrap;
+}
+
+.catalog-container__pagination {
+	margin-top: 45px;
+
+	ul {
+		text-align: center;
+
+		li {
+			display: inline-block;
+
+			a {
+				display: block;
+				padding: 15px 20px;
+				background: $main-bg;
+				color: $main-blue;
+				text-decoration: none;
+				text-align: center;
+				transition: 0.3s all;
+				&:hover {
+					background: rgba(#798B96, .2);
+					color: #93A4AF;
+				}
+			}
+		}
+	}
+}
+
+.catalog-container__about {
+	margin-top: 45px;
+	text-indent: 25px;
+
+	p {
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		color: $main-red;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
