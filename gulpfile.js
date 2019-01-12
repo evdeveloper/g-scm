@@ -1,43 +1,38 @@
-"use stricts";
+global.$ = {
+    gulp: require("gulp"),
+    browsersync: require("browser-sync").create(),
+    packageJson: require('./package.json'),
+    autoprefixer: require("gulp-autoprefixer"),
+    babel: require("gulp-babel"),
+    uglify: require("gulp-uglify"),
+    concat: require("gulp-concat"),
+    sass: require("gulp-sass"),
+    mincss: require("gulp-clean-css"),
+    sourcemaps: require("gulp-sourcemaps"),
+    rename: require("gulp-rename"),
+    imagemin: require("gulp-imagemin"),
+    pngquant: require("imagemin-pngquant"),
+    imageminJpegRecompress: require("imagemin-jpeg-recompress"),
+    favicons: require("gulp-favicons"),
+    replace: require("gulp-replace"),
+    rigger: require("gulp-rigger"),
+    newer: require("gulp-newer"),
+    plumber: require("gulp-plumber"),
+    debug: require("gulp-debug"),
+    watch: require("gulp-watch"),
+    clean: require("gulp-clean"),
 
-var gulp = require('gulp'),
-	sass = require('gulp-sass'),
-	concat = require('gulp-concat'),
-	uglify = require('gulp-uglify'),
-	cleanCSS = require('gulp-clean-css'),
-	concatCSS = require('gulp-concat-css'),
-	pump = require('pump'),
-	watch = require('gulp-watch');
+    path: {
+        tasks: require("./gulp/config.js")
+    }
+};
 
- 
-gulp.task('sass', function () {
-	return gulp.src(['scss/styles.scss', 'scss/responsive/*.scss'])
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('css/'));
+$.path.tasks.forEach(function(taskPath) {
+    require(taskPath)();
 });
 
-gulp.task('concat-js', function() {
-  return gulp.src('js/sliders/*.js')
-    .pipe(concat('sliders.js'))
-    .pipe(gulp.dest('build/js/'));
-});
-
-gulp.task('minify-js', function (cb) {
-	pump([gulp.src('build/js/*.js'), uglify(), gulp.dest('build/js')], cb);
-});
-
-gulp.task('concat-css', function () {
-	return gulp.src(['css/responsive_320.css', 'css/responsive_648.css', 'css/responsive_1170.css', 'css/responsive_320-648.css'])
-		.pipe(concatCSS('responsive.css'))
-    	.pipe(gulp.dest('build/css/'));
-});
-
-gulp.task('minify-css', function() {
-  return gulp.src('build/css/responsive.css')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('build/css/'));
-});
-
-gulp.task('watch', function () {
-    gulp.watch(['scss/styles.scss', 'scss/responsive/*.scss'], ['sass', 'concat-js', 'minify-js', 'concat-css', 'minify-css']);
-});
+// BUILD
+$.gulp.task("default", $.gulp.series("clean",
+    $.gulp.parallel("html", "styles", "favicons", "images", "scripts", "server_conf"),
+    $.gulp.parallel("watch", "serve")
+));
